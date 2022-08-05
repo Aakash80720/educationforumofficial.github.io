@@ -1,0 +1,56 @@
+.posts{
+    background-color: #f7f5f5;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    padding-top: 75px;
+    padding-bottom: 40px;
+}
+.post-fields{
+    border: 1px solid rgb(116, 116, 116);
+    width: 60%;
+    padding: 50px;
+    margin: 0 auto;
+}
+.input-field{
+    width: 50%;
+}
+label{
+    margin-right: 25px;
+    margin-left: -0px;
+}
+span{
+    float: right;
+    right: 20;
+}
+input{
+    padding: 5px;
+    outline-width: 0;
+}
+.submit{
+    background-color: #4a94e9;
+    color: black;
+    cursor: pointer;
+    justify-items: center !important;
+    margin-top: 30px !important;
+}
+.input-field1{
+    padding: 5px;
+    outline-width: 0;
+    border-radius: 2px;
+    margin-left: 10px;
+    width: 55%;
+}
+option:hover{
+    background-color: #e6e4e4;
+}
+.text-field{
+    width: 100%;
+    height: 80%;
+    outline-width: 0;
+    
+}
+/* @import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@450');
+.heading{
+    font-family:Markazi Text;
+} */

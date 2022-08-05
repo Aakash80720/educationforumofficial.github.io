@@ -1,0 +1,65 @@
+.send{
+    position: fixed;
+    bottom: 0px;
+    right: 50px;
+    background-color: #404040;
+    width: 50%;
+    height: 60%;
+    max-width: 500px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid whitesmoke;
+    box-shadow: 0px 5px 7px 0px rgba(0,0,0,0.24);
+}
+.send-header{
+    padding: 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: gray;
+}
+.send-header>h3{
+    color: whitesmoke;
+    font-size: 13px;
+}
+.send-options{
+    background-color: #3079ed;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin: 15px;
+    width: fit-content;
+    border-radius: 5px;
+}
+.send-closeIcon{
+    cursor: pointer;
+}
+.send-error{
+    
+}
+.sendquery{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+.send-input{
+    height: 30px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid whitesmoke;
+    outline: none;
+}
+.message{
+    flex: 1;
+    height: 30px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid whitesmoke;
+    outline: none;
+}
+.file{
+    display: flex;
+    color: whitesmoke;
+    align-items: center;
+}

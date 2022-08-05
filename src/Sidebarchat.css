@@ -1,0 +1,29 @@
+.sidebarchat{
+    display: flex;
+    padding: 5px;
+    border-bottom: 1px solid #f6f6f6;
+
+}
+.Links:hover{
+    background-color: #ebebeb;
+    width: 100%;
+    transition: width .30s  ease-in;
+    
+}
+.sidebarchat:hover{
+    /* background-color: #ebebeb; */
+    transition: 150ms ease-in;
+}
+.sidebarchat-info>h2{
+    font-size: 16px;
+    margin-bottom: 8px;
+
+
+}
+.sidebarchat-info{
+    margin-left: 15px;
+}
+a{
+    text-decoration: none !important;
+    color: black;
+}
